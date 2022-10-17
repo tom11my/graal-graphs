@@ -1,10 +1,10 @@
 import glob
 import subprocess
 
-DEST_DIR = "../c++progs/graphs"
-DEST_DIR = "/Users/tommyjoseph/desktop/graal/c++_progs/graphs"
-FROM_DIR = "../c++progs/graal_dumps"
-FROM_DIR = "/Users/tommyjoseph/desktop/graal/c++_progs/graal_dumps"
+# DEST_DIR = "/Users/tommyjoseph/desktop/graal/c++_progs/graphs"
+# FROM_DIR = "/Users/tommyjoseph/desktop/graal/c++_progs/graal_dumps"
+DEST_DIR = "/Users/tommyjoseph/desktop/graal/ruby_progs/graphs"
+FROM_DIR = "/Users/tommyjoseph/desktop/graal/ruby_progs/graal_dumps/2022.10.16.21.41.26.956"
 BGV_LAYER = 1
 SEAFOAM = "/opt/homebrew/lib/ruby/gems/3.1.0/gems/seafoam-0.14/bin/seafoam"
 print('start')
