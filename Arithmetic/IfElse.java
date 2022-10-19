@@ -1,10 +1,13 @@
-
-public class IfElse {
+class IfElse {
     public static void main(String[] args) {
-        // while (true) {
-        int result = ifElse(3);
-        System.out.println(result);
-        // }
+        while (true) {
+            for (String arg : args) {
+                ifElse(Integer.parseInt(args[0]));
+                // int result = ifElse(3);
+                // int result2 = ifElse(4);
+            }
+            // System.out.println(result);
+        }
     }
 
     public static int ifElse(int num) {
