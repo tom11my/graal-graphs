@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 int printHello(int i) {
     int y = i + 2;
     return y;
@@ -15,7 +15,7 @@ int main() {
     // }
     while (true) {
         int res = printHello(i); 
-        cout << res << "\n";
-        i++;
+        // cout << res << "\n";
+        // i++;
     }
 }
