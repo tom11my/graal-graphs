@@ -13,9 +13,9 @@ print('start')
 def graphs_from_bgv(from_dir, dest_dir):
     for i, f in enumerate(glob.glob(f"{from_dir}/*.bgv")):
         print("saving pdf for file", i)
-        gen_command = f"{SEAFOAM} {f}:{BGV_LAYER} render --out {f}.pdf"
+        gen_command = f"{SEAFOAM} {f}:{BGV_LAYER} render --out {f[:-4]}.pdf"
 
-        mv_command = f"mv {f}.pdf {dest_dir}"
+        mv_command = f"mv {f[:-4]}.pdf {dest_dir}"
 
         process = subprocess.Popen(gen_command.split(), stdout=subprocess.PIPE)
         output, error = process.communicate()
