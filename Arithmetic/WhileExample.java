@@ -7,10 +7,11 @@ public class WhileExample {
         }
     }
 
-    private static int whileExample(int x) {
+    private static int whileExample(float x) {
         int y = 0;
         while (y < x) {
-            y = y + 1;
+            // y = y + 1;
+            y = y - 1;
         }
         return y;
     }
